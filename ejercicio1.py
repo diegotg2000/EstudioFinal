@@ -18,7 +18,8 @@ h=2/10
 
 segunda=(b + c - 2*a)/h**2
 
-plt.plot(segunda, x)
+plt.plot(x[1:-1],segunda)
+#plt.scatter(x,fx)
 plt.savefig('Sderivada.png')
 
 
