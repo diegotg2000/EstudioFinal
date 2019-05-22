@@ -1,0 +1,7 @@
+Para el de mover la respuesta es:
+    mv *.dat Prueba/
+    
+Para el de git es:
+    git add datos.dat
+    git commit -m 'Un commit' 
+    git push
